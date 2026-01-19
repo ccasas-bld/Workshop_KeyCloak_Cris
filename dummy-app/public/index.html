@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dummy App</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Dummy App</h1>
+        <p class="sub">Keycloak OIDC (Authorization Code + PKCE)</p>
+      </header>
+
+      <section id="card" class="card">
+        <div class="row">
+          <div>
+            <h2 id="title">Cargando…</h2>
+            <p id="desc" class="muted">Consultando sesión…</p>
+          </div>
+          <span id="badge" class="badge">…</span>
+        </div>
+
+        <div id="actions" class="actions"></div>
+
+        <details id="claimsBox" class="claims" hidden>
+          <summary>Ver claims</summary>
+          <pre id="claims"></pre>
+        </details>
+      </section>
+
+      <footer class="footer">
+        <span id="envHint" class="muted"></span>
+      </footer>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

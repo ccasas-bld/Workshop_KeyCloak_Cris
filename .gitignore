@@ -1,0 +1,104 @@
+# =========================
+# Dependencias / builds
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+dist/
+build/
+.out/
+.next/
+.nuxt/
+coverage/
+.vite/
+.cache/
+.tmp/
+temp/
+
+# =========================
+# Runtime / logs
+# =========================
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Variables de entorno (SENSIBLE)
+# =========================
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# =========================
+# Credenciales / llaves / certificados (SENSIBLE)
+# =========================
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+*.jks
+*.keystore
+*.ovpn
+*.kubeconfig
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.asc
+
+# AWS / GCP / Azure
+.aws/
+gcloud/
+.azure/
+*service-account*.json
+*firebase-adminsdk*.json
+
+# =========================
+# Datos locales / dumps / backups (SENSIBLE)
+# =========================
+data/
+secrets/
+private/
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql
+*.bak
+*.backup
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# =========================
+# IDE / SO
+# =========================
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
