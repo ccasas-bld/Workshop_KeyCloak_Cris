@@ -5,7 +5,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - KC_BOOTSTRAP_ADMIN_USERNAME=admin
-      - KC_BOOTSTRAP_ADMIN_PASSWORD=admin
+      - KC_BOOTSTRAP_ADMIN_USERNAME={KC_ADMIN_USER}
+      - KC_BOOTSTRAP_ADMIN_PASSWORD={KC_ADMIN_PASS}
     volumes:
       - ./keycloak_data:/opt/keycloak/data
